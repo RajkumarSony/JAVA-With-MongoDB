@@ -22,7 +22,7 @@
 		String database		=	"StudentDB";
 		String tablename	=	"Student";
 		
-		String src = "mongodb+srv://RajkumarSony:8252444848@cluster1.q9ccf.mongodb.net/StudentDB?retryWrites=true&w=majority";
+		String src = "mongodb+srv://<username>:<password>@cluster1.q9ccf.mongodb.net/StudentDB?retryWrites=true&w=majority";
 		
 		try {
 			MongoClientURI uri = new MongoClientURI(src);
@@ -89,7 +89,7 @@
 	        table.deleteOne(Filters.eq("name", "Lokendra"));
 	        System.out.println("Document deleted successfully...");
 	        
-	        table.deleteMany(Filters.eq("name", "Komal"));
+	        table.deleteMany(Filters.eq("name", "Rajkumar"));
 	        System.out.println("All Documents deleted successfully...");
 	        
 	        
