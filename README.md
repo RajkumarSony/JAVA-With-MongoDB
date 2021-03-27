@@ -36,8 +36,8 @@
 		System.out.println("Connected to the database successfully..."); 
 
 
-			//----------- Accessing Database ------------------------------//
-			MongoDatabase db = mongoClient.getDatabase( database ); 
+		//----------- Accessing Database ------------------------------//
+		MongoDatabase db = mongoClient.getDatabase( database ); 
 
 
 		//----------- Creating Table / Collection ------------------------------//
