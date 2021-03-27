@@ -31,7 +31,7 @@
 
 		//----------- Creating Credentials ------------------------------//
 		MongoCredential credential; 
-		credential = MongoCredential.createCredential( "RajkumarSony", database, "8252444848".toCharArray()); 
+		credential = MongoCredential.createCredential( "<username>", database, "<password>".toCharArray()); 
 		System.out.println("Credentials :: "+ credential);
 		System.out.println("Connected to the database successfully..."); 
 
